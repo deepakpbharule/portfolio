@@ -1991,8 +1991,28 @@ ul.actions li:first-child {
 body>article {
     margin-bottom: 0;
 }
+.custom-shape-divider-bottom-1678773710 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 
+.custom-shape-divider-bottom-1678773710 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 135px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1678773710 .shape-fill {
+    fill: #50E3C2B5;
+}
 #top {
+    position: relative;
     padding: 10em 0 10em 0;
     text-align: left;
     background-image: url('../../images/bg.jpg');
